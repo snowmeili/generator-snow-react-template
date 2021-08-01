@@ -1,15 +1,14 @@
 #### 自定义脚手架
-
-* 1. 用 Rollp 打包发布 npm
-* 2. 使用下载
-* 3. cli 命令
+* 1. 全局安装 npm i yeoman-generator -g
+* 2. 全局安装 npm i gengerator-snow-react-template -g
+* 3. 下载模板 npx yo snow-react-template
 
 
 #### 用 yeoman-generator 制作脚手架的办法如下：
 * 1. 创建项目 generator-xxxxx，初始化
 > npm init
 
-> npm i yeoman-generator
+> npm i yeoman-generator -g
 
 * 修改 package.json 文件里面的 files 属性
 
